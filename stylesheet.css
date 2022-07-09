@@ -1,0 +1,387 @@
+/*
+  $Id: stylesheet.css 1739 2007-12-20 00:52:16Z hpdl $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.boxText { font-family: Arial, Verdana, sans-serif; font-size: 10px; }
+.errorBox { font-family : Arial, Verdana, sans-serif; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Arial, Verdana, sans-serif; font-size : 10px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Arial, Verdana, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+  #indicator {
+    visibility:hidden;
+	}
+
+a img {
+	border: 0;
+}
+
+ a {  	
+		color: #0071a6;
+		text-decoration: underline;
+	}
+
+A:hover {
+  color: #009ce5;
+  text-decoration: underline;
+}
+
+FORM {
+	display: inline;
+}
+
+TR.header {
+  background: #ffffff;
+}
+
+TR.headerNavigation {
+  background: #bbc3d3;
+}
+
+TD.headerNavigation {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight : bold;
+}
+
+A.headerNavigation { 
+  color: #0071a6; 
+  font-size: 11px;
+  line-height: 2;  
+}
+
+A.headerNavigation:hover {
+  color: #009ce5;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: #00ff00;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+TR.footer {
+  background: #bbc3d3;
+}
+
+TD.footer {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.infoBox {
+  background: #fff;
+}
+
+.infoBoxContents {
+  background: transparent;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBox_login {
+  background: #cce3ed;
+  
+  min-height: 200px;
+  height: 220px;
+}
+
+.infoBox_login .main, .blue_title {
+  
+  padding: 0 15px;
+  
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #bbc3d3;
+  color: #ffffff;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #FFF;
+  
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #FFF;
+  
+}
+
+/*
+TR.productListing-odd {
+background: url("images/Product_Separator.gif") no-repeat bottom left; 
+}
+
+TR.productListing-even {
+background: url("images/Product_Separator.gif") no-repeat bottom left; 
+}
+
+TR.productListing-odd img {
+padding-bottom: 15px; 
+}
+
+TR.productListing-even img {
+padding-bottom: 15px; 
+}
+
+/*
+TABLE.productListing {
+
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+
+}
+
+.productListing-even TD {
+border-top: 2px solid #cce3ed;
+}
+  border-spacing: 1px;
+*/
+
+.account-heading {
+
+background: #006699;
+padding:5px;
+color: #fff;
+width: 100%;
+}
+
+.productListing-heading {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: #006699;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding:7px;
+}
+
+.productListing-total {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: #cce3ed;
+  color: #000;
+  font-weight: bold;
+  padding:7px;
+}
+
+TD.productListing-data {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+  padding: 5px 30px 10px 0px;
+  
+}
+
+A.pageResults {
+  color: #0000FF;
+}
+
+A.pageResults:hover {
+  color: #0000FF;
+  background: #FFFF33;
+}
+
+TD.pageHeading, DIV.pageHeading {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0071a6;
+}
+
+TR.subBar {
+  background: #ffffff;
+}
+
+TD.subBar {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+TD.main, P.main {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 1.25; 
+  
+}
+
+.topnav {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+  text-align:right;
+  padding: 30px 15px 0 0;
+}
+/*
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+*/
+
+SPAN.smallText {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+}
+TD.accountCategory {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.fieldValue {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.newItemInCart {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 10px;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+}
+
+SPAN.greetUser {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family: Arial, Verdana, sans-serif;
+  color: #ff0000;
+}
+
+SPAN.errorText {
+  font-family: Arial, Verdana, sans-serif;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Arial, Verdana, sans-serif; font-size: 10px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Arial, Verdana, sans-serif; font-size: 10px; color: #000000; }
+
+/* message box */
+
+.messageBox { font-family: Arial, Verdana, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Arial, Verdana, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Arial, Verdana, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Arial, Verdana, sans-serif; font-size: 10px; color: #ff0000; }
+
+.borderGray {border:1px solid #666666;}
+TD.discountMain {  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+TD.discountHead {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color: white; background-color: #6fbaf1;}
+
+/* OTF contrib begins */
+/* DDB - 041031 - Form Field Progress Bar */
+.progress{
+  width: 1px;
+  height: 14px;
+  color: white;
+  font-size: 12px;
+  overflow: hidden;
+  background-color: navy;
+  padding-left: 5px;}
+}
+/* OTF contrib ends */

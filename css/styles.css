@@ -1,0 +1,397 @@
+/* Copyright 2006 Joost de Valk */
+
+
+ a {  	
+		color: #0071a6;
+	}
+
+   html, body, #container  {
+      background:#fff;
+      margin:0;
+      padding:0;
+      color:#000;
+      width:100%;
+      text-align:center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      background: url("../images/page_bg.gif") repeat-y top center;
+      voice-family: "\"}\""; voice-family:inherit;
+      font-size:small;
+      } html>body {font-size:small;}
+
+ 	html>body #container {
+    height: auto; /*this undoes the IE hack, hiding it
+                    from IE using the child selector*/
+    }
+
+
+	#container {
+	  margin: 0 auto;
+	  padding: 0;
+	  width: 901px;
+	  text-align:center;
+	 
+	  
+	}
+
+	#content {
+
+	width: 900px;
+	height: auto;
+	margin: 0;
+	padding:0;
+	padding-bottom: 15px;
+    min-height: 760px;
+    text-align:left;
+    
+    }
+
+	#content_space {
+
+	padding:20px 25px 0 25px;
+
+    }	
+
+	#prodlist_content_space {
+
+	padding:0 22px;
+
+    }
+    
+
+	#header_container {
+	background: url("../images/headerbg_img.jpg") no-repeat top left;
+	width: 900px;
+	height: 220px;
+	position: relative;
+	}
+
+
+	.manu_id24 #header_container {
+	background: url("../images/headerbg_viax.jpg") no-repeat top left;
+	}	
+
+	.manu_id23 #header_container {
+	background: url("../images/headerbg_ultradent.jpg") no-repeat top left;
+	}	
+
+	.manu_id22 #header_container {
+	background: url("../images/headerbg_burkhart.jpg") no-repeat top left;
+	}		
+
+	.manu_id21 #header_container {
+	background: url("../images/headerbg_zila.jpg") no-repeat top left;
+	}		
+
+	.manu_id20 #header_container {
+	background: url("../images/headerbg_usa.jpg") no-repeat top left;
+	}
+
+	.manu_id18 #header_container {
+	background: url("../images/headerbg_amd.jpg") no-repeat top left;
+	}
+
+	.manu_id17 #header_container {
+	background: url("../images/headerbg_beamer.jpg") no-repeat top left;
+	}
+
+	.manu_id16 #header_container {
+	background: url("../images/headerbg_innovations.jpg") no-repeat top left;
+	}
+
+	.manu_id15 #header_container {
+	background: url("../images/headerbg_dcinter.jpg") no-repeat top left;
+	}
+	
+	.manu_id14 #header_container {
+	background: url("../images/headerbg_biolase.jpg") no-repeat top left;
+	}
+	
+	.manu_id13 #header_container {
+	background: url("../images/headerbg_denmat.jpg") no-repeat top left;
+	}		
+	
+	.manu_id11 #header_container {
+	background: url("../images/headerbg_hoya.jpg") no-repeat top left;
+	}	
+	
+	.manu_id10 #header_container {
+	background: url("../images/headerbg_millenium.jpg") no-repeat top left;
+	}	
+	
+	#manu_logo {
+	width: 207px;
+	height: 96px;
+	border-top: dotted 2px #0071a6;
+	margin: 15px 0;
+	}
+
+	.logo {
+	width: 207px;
+	height: 96px;
+	}	
+
+	.manu_id24 .logo {
+	background: url("../images/logo_manuf_viax.gif") no-repeat top left;
+	margin-top: 15px;
+	}	
+
+	.manu_id23 .logo {
+	background: url("../images/logo_manuf_ultradent.gif") no-repeat top left;
+	margin-top: 15px;
+	}	
+	
+	.manu_id15 .logo {
+	background: url("../images/logo_manuf_dcinter.gif") no-repeat top left;
+	margin-top: 15px;
+	}		
+	
+	.manu_id14 .logo {
+	background: url("../images/logo_manuf_biolase.gif") no-repeat top left;
+	/*margin-top: 15px;*/
+	}	
+	
+	.manu_id13 .logo {
+	background: url("../images/logo_manuf_denmat.gif") no-repeat top left;
+	margin-top: 10px;
+	}		
+
+	.manu_id21 .logo {
+	background: url("../images/logo_manuf_zila.png") no-repeat top left;
+	width: 186px;
+	height: 80px;
+	margin-left: 10px
+	/*margin-top: 15px;*/
+	}	
+	
+	.manu_id11 .logo {
+	background: url("../images/logo_manuf_hoya.gif") no-repeat top left;
+	/*margin-top: 15px;*/
+	}
+	
+	.manu_id10 .logo {
+	background: url("../images/logo_manuf_millennium.gif") no-repeat top left;
+	height: 335px;
+	margin-top: 10px;
+	}		
+	
+    #header {
+      float:left;
+      width:100%;
+      /*background:#DAE0D2 url("bg.gif") repeat-x bottom;*/
+      font-size:93%;
+      line-height:normal;
+      position: absolute;
+      bottom: 0px;
+      left: 22px;
+      }
+    #header ul {
+      margin:0;
+      padding:10px 10px 0;
+      list-style:none;
+      }
+    #header li {
+      float:left;
+      background:url("left_both.png") no-repeat left top;
+      margin:0;
+      padding:0 0 0 9px;
+      /*border-bottom:1px solid #765;*/
+      }
+    #header a {
+      float:left;
+      display:block;
+      width:.1em;
+      background:url("right_both.png") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      text-decoration:none;
+      font-weight:bold;
+      color:#fff;
+      }
+    #header > ul a {width:auto;}
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #header a {float:none;}
+    /* End IE5-Mac hack */
+    #header a:hover {
+      color:#fff;
+      }
+    #home #nav-home, #page0 #nav-shoppinghome,
+    #page1 #nav-1, #page2 #nav-2,
+    #page3 #nav-3, #page4 #nav-4 {
+      background-position:0 -300px;
+      border-width:0;
+      }
+    #home #nav-home a, #page0 #nav-shoppinghome a,
+    #page1 #nav-1 a, #page2 #nav-2 a,
+    #page3 #nav-3 a, #page4 #nav-4 a {
+      background-position:100% -300px;
+      padding-bottom:4px;
+      color:#333;
+      }
+    #header li:hover, #header li:hover a {
+      background-position:0% -150px;
+      color:#fff;
+      }
+    #header li:hover a {
+      background-position:100% -150px;
+      }
+
+	#manu_container {
+	  width: 614px;
+	  height: 135px;
+	  overflow: visible;
+	}
+	
+	#manu_container_top {
+	  width: 650px;
+	  height: 125px;
+	  /*height: 85px;*/
+	  background: url("../images/manu_select_bg.gif") no-repeat top left;
+	}
+	
+	#manu_container_bottom {
+	  width: 650px;
+	  height: 10px;
+	  background: url("../images/manu_select_bg_bottom.gif") no-repeat top left;
+	}
+	
+	#manu_container_content {
+	  padding: 20px 0 0 15px;
+	}
+
+  #footerwrap {
+    width: 100%;
+    
+    }
+
+
+  #footer {
+	  width: 860px;
+	  height: auto;
+	  padding: 20px 0;
+	  font-size: 12px;
+	  margin: 0 auto;
+	  text-align: left;
+	  line-height: 14px;
+	  border-top: #ddd 1px solid; 
+  	}
+
+.intro {
+	 padding: 0 0 20px 0;
+}
+
+.prod_price {
+	padding: 8px 0;
+}	
+
+.prod_info_space {
+	padding: 10px 0;
+}
+
+.prod_info_space ul {
+	padding: 0 15px;
+	margin: 12px 0;
+}
+
+.prodname {
+	color: #0071a6;
+	font-size: 14px;
+}
+
+.blue {
+	color: #0071a6;
+	
+}
+
+.blue_title {
+	color: #0071a6;
+	font-size: 16px;
+}
+
+#cat-col-1, #cat-col-2, #cat-col-3 {
+	 padding: 0 25px;
+	 margin: 0;
+	 font-size:12px;
+}
+
+#cat-col-4 {
+	 padding: 12px 25px 0 0;
+	 margin: 0;
+	 font-size:12px;
+}
+
+#cat-col-1, #cat-col-2, #cat-col-4 {
+	  border-right: dotted 2px #0071a6;
+}
+
+#page0 #cat-col-1 {
+
+	padding: 0 25px 0 0;
+
+    }
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.copyright {
+		font-size: 10px;
+		line-height: 11px;
+		width: 700px;
+}
+
+.copyright p {
+
+		padding: 0px;
+		margin: 10px 0;
+}
+
+.medium {
+	font-size: 1.10em;
+}
+
+.Product_Separator {
+	  width: 600px;
+	  height: 20px;
+	  background: url("../images/Product_Separator.gif") no-repeat top left;
+	}
+	
+#productid_116, #productid_116 + tr { display: none; }
+
+/*
+table.sortable {
+	border-spacing: 0;
+	border: 0px solid #000;
+	border-collapse: collapse;
+}
+table.sortable th, table.sortable td {
+	text-align: left;
+	padding: 2px 4px 2px 4px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+table.sortable th {
+	border-width: 0px 0px 0px 0px;
+	background-color: #003366;
+}
+table.sortable td {
+	border-width: 0px 0px 1px 0px;
+}
+table.sortable tr.odd td {
+}
+table.sortable tr.even td {
+}
+table.sortable tr.sortbottom td {
+	border-top: 1px solid #444;
+	background-color: #003366;
+	font-weight: bold;
+}
+
+*/

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Advanced Laser Training</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">   
+  
+
+
+<script type="text/javascript" src="popup.js"></script>
+
+<script type="text/javascript">
+
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+
+var url_param = gup( 'dateid' );
+//alert(url_param);
+
+//var dateSelect = document.getElementById("id[4]");
+//alert(dateSelect);
+
+//var optionSelect = document.getElementById("option" + url_param);
+//var select = document.getElementByName("id[4]");
+//alert(select);
+
+document.getElementById('option130').selected = true;
+///var optionValue = optionSelect.value;
+//alert(optionValue);
+//optionSelect.selected = true;
+
+
+</script>
+
+</head>
+<body id="page$cat_depth" class="manu_id$manu_id">
+
+
+
+
+<div id="container">
+
+<div id="content">
+
+<a href="http://www.advancedlasertraining.com" target="_blank"><img src="images/logo_atl.gif" class="left" width="149" height="70" border="0" /></a>
+<img src="images/img_contact.gif" class="left" width="267" height="70" border="0" />
+<div class="topnav"><div class="headerNavigation">$greeting<br />$myaccountlogoff | $cartcontents | $checkout</div></div>
+<div class="clear"></div>
+<div id="header_container">
+
+<div id="header">
+
+  <ul>
+    <li id="nav-home"><a href="http://www.advancedlasertraining.com">Advanced Laser Training home</a></li>
+    <li id="nav-shoppinghome"><a href="$urlcataloglogo">Shopping home</a></li>
+    $categorybox
+  </ul>
+</div>
+</div>
+
+<div class="clear"></div>
+
+
+<table border="0" width="100%" cellspacing="3" cellpadding="3">
+  <tr>
+    <td valign="top">
+      
+      <div id="content_space">$content</div>
+      
+    </td>
+    <td valign="top" width="225">
+      
+        
+        <div style="padding:20px 0 0 0">$searchbox</div>
+		<div style="padding:15px 5px">$cartlogo</div>
+		<div>$courses_img</div>
+		$manu_logo
+      
+    </td>
+  </tr>
+</table>
+
+
+<!--<hr width="97%" />-->
+</div>
+
+<?php include('footer.php'); ?>
+
+
+<script type="text/javascript">
+
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+
+var url_param = gup( 'dateid' );
+
+if(url_param) {
+document.getElementById(url_param).selected = true;
+}
+
+</script>
+
+</body>
+</html>

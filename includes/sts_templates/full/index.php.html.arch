@@ -1,0 +1,82 @@
+
+<html $htmlparams>
+<head>
+<!--$headcontent-->
+  
+
+<style type="text/css" media="screen">
+<!--
+@import url("css/styles.css");
+-->
+</style>  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+</head>
+<body>
+
+
+<div id="page$cat_depth">
+
+<div id="container">
+
+<div id="content">
+
+<img src="images/logo_atl.gif" class="left" width="149" height="70" border="0" />
+<img src="images/img_contact.gif" class="left" width="267" height="70" border="0" />
+<div class="topnav"><div class="headerNavigation">$greeting<br />$myaccountlogoff | $cartcontents | $checkout</div></div>
+<div class="clear"></div>
+<div id="header_container">
+
+<div id="header">
+
+  <ul>
+    <li id="nav-home"><a href="#">Advanced Laser Taining home</a></li>
+    <li id="nav-news"><a href="#">shopping home</a></li>
+    <li id="nav-products"><a href="#">courses</a></li>
+    <li id="nav-about"><a href="#">laser accessories</a></li>
+    <li id="nav-contact"><a href="#">patient brochures</a></li>
+	<!--<li id="nav-subscription"><a href="#">subscription</a></li>//-->
+  </ul>
+</div>
+</div>
+
+<table border="0" width="100%" cellspacing="3" cellpadding="3">
+  <tr>
+    <td valign="top" width="125">
+      <table border="0" width="125" cellspacing="0" cellpadding="2">
+        <!-- <tr><td>catmenu</td></tr> -->
+        <tr><td>$categorybox</td></tr>
+
+      </table>
+    </td>
+    <td valign="top">
+      $cat_depth
+      <p>$content</p>
+      <p>&nbsp;</p>
+    </td>
+    <td valign="top" width="125">
+      <table border="0" width="125" cellspacing="0" cellpadding="2">
+        <tr><td>$cartbox</td></tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+<div id="footerwrap">
+<div id="footer">
+<a href="#">Privacy Policy</a>  |  <a href="#">Cancellation Policy</a>  |  <a href="#">Terms & Conditions</a><br />
+<span class="copyright">Copyright &copy;2009 Advanced Laser Training, Inc. All rights reserved.</span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

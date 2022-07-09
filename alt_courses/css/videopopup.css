@@ -1,0 +1,112 @@
+#closer_videopopup {
+    position: absolute;
+    display: table-cell;
+    right: 2%;
+    top: 2%;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    padding: auto;
+    cursor: default;
+    background: none;
+    border: none;
+    color: #ffffff;
+    z-index: 100004;
+}
+
+#opct {
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    background: #17212a;
+}
+
+#videCont, 
+#videCont02, 
+#videCont03, 
+#videCont04, 
+#videCont05, 
+#videCont06, 
+#videCont07, 
+#videCont08, 
+#videCont09, 
+#videCont10, 
+#videCont11, 
+#videCont12, 
+#videCont13, 
+#videCont14, 
+#videCont15,
+#videCont16,
+#videCont17,
+#videCont18,
+#videCont19,
+#videCont20,
+#videCont21,
+#videCont22,
+#videCont23,
+#videCont24,
+#videCont25,
+#videCont26,
+#videCont27,
+#videCont28,
+#videCont29,
+#videCont30  {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: auto;
+    max-width: 720px;
+    height: 0;
+    height: auto !important;
+}
+
+video {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    opacity: 1 !important;
+}
+
+#video1, 
+#video2,
+#video3,
+#video4,
+#video5,
+#video6,
+#video7,
+#video8,
+#video9,
+#video10,
+#video11,
+#video12,
+#video13,
+#video14,
+#video15,
+#video16,
+#video17,
+#video18,
+#video19,
+#video20,
+#video21,
+#video22,
+#video23,
+#video24,
+#video25,
+#video26,
+#video27,
+#video28,
+#video29,
+#video30 {
+    cursor: pointer;
+    cursor: hand;
+}

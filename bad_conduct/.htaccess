@@ -1,0 +1,2 @@
+# serve alternate default index page
+DirectoryIndex ban.php

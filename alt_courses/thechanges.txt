@@ -1,0 +1,6 @@
+table users
+address varchar(200)
+phone varchar(50)
+random_str varchar(100)
+approved int 
+disabled int
